@@ -145,8 +145,8 @@ public class EjemploIterator {
         numeros.add(20);
         numeros.add(30);
 
-        Iterator<Integer> it = numeros.iterator();
-        while (it.hasNext()) {
+        Iterator<Integer> it = numeros.iterator(); //recorre el elemento numeros uno por uno
+        while (it.hasNext()) { //Pregunta si hay un siguiente elemento en la colección.
             System.out.println(it.next());
         }
         // Imprime 10, 20, 30
